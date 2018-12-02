@@ -22,6 +22,7 @@
 
 import UIKit
 import Alamofire
+import MBProgressHUD
 
 public class PickFlavorViewController: UIViewController {
 
@@ -43,6 +44,7 @@ public class PickFlavorViewController: UIViewController {
   }
 
   fileprivate func loadFlavors() {
+    showLoadingHUB()
     let url = URL(string: "https://www.raywenderlich.com/downloads/Flavors.plist")
     Alamofire.request(
       "https://www.raywenderlich.com/downloads/Flavors.plist",
@@ -50,6 +52,7 @@ public class PickFlavorViewController: UIViewController {
       encoding: PropertyListEncoding(format: .xml, options:0)).responsePropertyList {
       [weak self] response in
       guard let strongSelf = self else {return}
+        strongSelf.hideLoadingHUB()
       guard response.result.isSuccess,
         let dicArray = response.result.value as? [[String: String]] else {
           return
@@ -65,6 +68,13 @@ public class PickFlavorViewController: UIViewController {
       return
     }
     update(with: flavor)
+  }
+  private func showLoadingHUB() {
+    let hub = MBProgressHUD.showAdded(to: contentView, animated: true)
+    hub.label.text = "Loading..."
+  }
+  private func hideLoadingHUB() {
+    MBProgressHUD.hide(for: contentView, animated: true)
   }
 }
 

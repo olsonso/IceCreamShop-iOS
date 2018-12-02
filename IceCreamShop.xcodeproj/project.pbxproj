@@ -18,12 +18,10 @@
 		42801B781A881E5500DEB026 /* IceCreamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42801B771A881E5500DEB026 /* IceCreamView.swift */; };
 		42B433FB1A89ECFB0091170B /* FlavorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B433FA1A89ECFB0091170B /* FlavorFactory.swift */; };
 		42C970621A8C9CAF002FEFF3 /* UIColor+RGBA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C970611A8C9CAF002FEFF3 /* UIColor+RGBA.swift */; };
-		A8422FE8AA39F5A73ADC1926 /* libPods-IceCreamShop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F409CBD02374CA302539CC6 /* libPods-IceCreamShop.a */; };
+		E938AFB19730105FAB665249 /* Pods_IceCreamShop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6023ED51992FA930517BF338 /* Pods_IceCreamShop.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		337C277BBD86C5CFAC29952D /* Pods-IceCreamShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IceCreamShop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IceCreamShop/Pods-IceCreamShop.debug.xcconfig"; sourceTree = "<group>"; };
-		3651A5A509D641644EE20621 /* Pods-IceCreamShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IceCreamShop.release.xcconfig"; path = "Pods/Target Support Files/Pods-IceCreamShop/Pods-IceCreamShop.release.xcconfig"; sourceTree = "<group>"; };
 		4274BF161A88264600937936 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4274BF181A88268F00937936 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		4274BF1B1A88274600937936 /* Flavor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flavor.swift; sourceTree = "<group>"; };
@@ -38,7 +36,9 @@
 		42B433FA1A89ECFB0091170B /* FlavorFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlavorFactory.swift; sourceTree = "<group>"; };
 		42B433FC1A89F78F0091170B /* IceCreamShop-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IceCreamShop-Bridging-Header.h"; sourceTree = "<group>"; };
 		42C970611A8C9CAF002FEFF3 /* UIColor+RGBA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+RGBA.swift"; sourceTree = "<group>"; };
-		5F409CBD02374CA302539CC6 /* libPods-IceCreamShop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IceCreamShop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5631A8A23F0E09ADC9DDAEA6 /* Pods-IceCreamShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IceCreamShop.release.xcconfig"; path = "Pods/Target Support Files/Pods-IceCreamShop/Pods-IceCreamShop.release.xcconfig"; sourceTree = "<group>"; };
+		6023ED51992FA930517BF338 /* Pods_IceCreamShop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IceCreamShop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1536A6ED030D20A657F7307 /* Pods-IceCreamShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IceCreamShop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IceCreamShop/Pods-IceCreamShop.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8422FE8AA39F5A73ADC1926 /* libPods-IceCreamShop.a in Frameworks */,
+				E938AFB19730105FAB665249 /* Pods_IceCreamShop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +85,7 @@
 				42801B511A881DF600DEB026 /* IceCreamShop */,
 				42801B501A881DF600DEB026 /* Products */,
 				E1B3556271B9796A750387AC /* Frameworks */,
-				C20309D7D38053A9B015EE80 /* Pods */,
+				590CF93B040744022977A5A3 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -108,19 +108,19 @@
 				42B433F91A89ECE00091170B /* Factories */,
 				4274BF1A1A88273100937936 /* Models */,
 				42801B761A881E1400DEB026 /* Resources */,
-				42801B521A881DF600DEB026 /* Supporting Files */,
+				42801B521A881DF600DEB026 /* SupportingFiles */,
 				42801B751A881E0800DEB026 /* Views */,
 			);
 			path = IceCreamShop;
 			sourceTree = "<group>";
 		};
-		42801B521A881DF600DEB026 /* Supporting Files */ = {
+		42801B521A881DF600DEB026 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
 				42B433FC1A89F78F0091170B /* IceCreamShop-Bridging-Header.h */,
 				42801B531A881DF600DEB026 /* Info.plist */,
 			);
-			name = "Supporting Files";
+			name = SupportingFiles;
 			sourceTree = "<group>";
 		};
 		42801B741A881DFC00DEB026 /* Controllers */ = {
@@ -173,11 +173,11 @@
 			name = Extensions;
 			sourceTree = "<group>";
 		};
-		C20309D7D38053A9B015EE80 /* Pods */ = {
+		590CF93B040744022977A5A3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				337C277BBD86C5CFAC29952D /* Pods-IceCreamShop.debug.xcconfig */,
-				3651A5A509D641644EE20621 /* Pods-IceCreamShop.release.xcconfig */,
+				A1536A6ED030D20A657F7307 /* Pods-IceCreamShop.debug.xcconfig */,
+				5631A8A23F0E09ADC9DDAEA6 /* Pods-IceCreamShop.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -185,7 +185,7 @@
 		E1B3556271B9796A750387AC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5F409CBD02374CA302539CC6 /* libPods-IceCreamShop.a */,
+				6023ED51992FA930517BF338 /* Pods_IceCreamShop.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -201,6 +201,7 @@
 				42801B4B1A881DF600DEB026 /* Sources */,
 				42801B4D1A881DF600DEB026 /* Resources */,
 				2E3FFC2B5D697FDBF99A9C5C /* Frameworks */,
+				2D79DAAD03D8D047811AE898 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -219,7 +220,7 @@
 			attributes = {
 				LastSwiftMigration = 0700;
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Razeware, LLC";
 				TargetAttributes = {
 					42801B4E1A881DF600DEB026 = {
@@ -260,20 +261,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		DF22BD158B13DD094BEF1F67 /* [CP] Check Pods Manifest.lock */ = {
+		2D79DAAD03D8D047811AE898 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IceCreamShop/Pods-IceCreamShop-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IceCreamShop/Pods-IceCreamShop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF22BD158B13DD094BEF1F67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-IceCreamShop-checkManifestLockResult.txt",
 			);
@@ -322,14 +337,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -367,14 +388,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -399,15 +426,17 @@
 		};
 		42801B6F1A881DF600DEB026 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 337C277BBD86C5CFAC29952D /* Pods-IceCreamShop.debug.xcconfig */;
+			baseConfigurationReference = A1536A6ED030D20A657F7307 /* Pods-IceCreamShop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				INFOPLIST_FILE = IceCreamShop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.raywenderlich.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "IceCreamShop/IceCreamShop-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -416,15 +445,15 @@
 		};
 		42801B701A881DF600DEB026 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3651A5A509D641644EE20621 /* Pods-IceCreamShop.release.xcconfig */;
+			baseConfigurationReference = 5631A8A23F0E09ADC9DDAEA6 /* Pods-IceCreamShop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = IceCreamShop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.raywenderlich.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "IceCreamShop/IceCreamShop-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
